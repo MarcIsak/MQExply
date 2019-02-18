@@ -12,5 +12,6 @@ getlfq <- function(mqo){
   mqo@lfq <- lfq
   mqo
 }
+dfd
 
 
