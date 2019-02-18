@@ -12,3 +12,4 @@ getlfq <- function(mqo){
   mqo@lfq <- lfq
   mqo
 }
+ghgh
