@@ -7,5 +7,6 @@ filterlfq <- function(mqo,maxTotNA){
   naSum <- rowSums(is.na(mqo@lfq))
   mqo@lfqFilter <- mqo@lfq[naSum<=maxTotNA,]
   mqo
+  print("hello")
 }
 #yo
