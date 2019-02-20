@@ -8,3 +8,4 @@ filterlfq <- function(mqo,maxTotNA){
   mqo@lfqFilter <- mqo@lfq[naSum<=maxTotNA,]
   mqo
 }
+#yo man
